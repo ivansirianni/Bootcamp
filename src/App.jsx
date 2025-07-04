@@ -1,4 +1,6 @@
 import "./App.css";
+import Counter from "./components/Counter";
+import Estados from "./components/EstadosComplejos";
 
 // ejercicios de full stack open bootcamp
 //1
@@ -55,6 +57,8 @@ const App = () => {
       <Parte2 prop1 = {part2} prop2={exercises2}/>
       <Parte3 prop1 = {part3} prop2={exercises3}/>
       <Suma prop1 = {exercises1} prop2={exercises2} prop3={exercises3}/>
+      <Counter />
+      <Estados />
     </div>
   );
 };
