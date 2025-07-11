@@ -22,7 +22,7 @@ const INITIAL_COUNTER_STATE = {
   mensaje: "Renderizando desde las diferentes funciones",
 };
 
-const Estados = () => {
+export const Estados = () => {
   //const [left, setLeft] = useState(0);
   //const [right, setRight] = useState(0);
 
@@ -71,4 +71,4 @@ const Estados = () => {
   );
 };
 
-export default Estados;
+

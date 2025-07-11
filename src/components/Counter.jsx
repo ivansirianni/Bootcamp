@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Contador = ({number}) => {
+export const Contador = ({number}) => {
     console.log("Counter render")
   return <h1>{number}</h1>;
 }; // en esta funcion extraigo el elemento number que muestra abajo en el contador
@@ -33,5 +33,5 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+
 //practicamos el use state a traves de un contador
