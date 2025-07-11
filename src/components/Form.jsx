@@ -40,7 +40,7 @@ export const Form = () => {
   return (
     <>
       <h1>Notas y fetching</h1>
-      {loading ? "CARGANDO LAS INFO DEL FETCH 3 SEGUNDOS ..." : ""}
+      {loading ? "CARGANDO LAS INFOs DEL FETCH 3 SEGUNDOS ..." : ""}
 
       <form onSubmit={handleClick}>
         <input type="text" onChange={handleChange} value={newNote} />
